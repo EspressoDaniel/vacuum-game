@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+.svelte-kit/
+build/
+dist/
+
+# Static files (often minified or generated)
+static/
+
+# Environment files
+.env
+.env.*
+
+# Version control
+.git/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Documentation assets
+*.md
+
+# Generated files
+*.min.js
+*.min.css
+
+# Temporary files
+*.tmp
+*.temp
+
+# Config files that should maintain their formatting
+tsconfig.json
+tsconfig.*.json

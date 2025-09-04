@@ -1,0 +1,53 @@
+{
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"eslint.validate": ["javascript", "typescript", "svelte"],
+	"svelte.enable-ts-plugin": true,
+	"files.associations": {
+		"*.svelte": "svelte"
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svelte-kit": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"**/build": true,
+		"**/dist": true
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/build": true,
+		"**/dist": true,
+		"**/.svelte-kit": true,
+		"**/package-lock.json": true
+	},
+	"emmet.includeLanguages": {
+		"svelte": "html"
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	}
+}

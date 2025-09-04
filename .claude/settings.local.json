@@ -1,0 +1,22 @@
+{
+	"permissions": {
+		"allow": [
+			"mcp__context7__resolve-library-id",
+			"mcp__context7__get-library-docs",
+			"Bash(npm run dev:*)",
+			"Bash(npx tsc:*)",
+			"Bash(npm run typecheck:*)",
+			"Bash(npm run check:*)",
+			"mcp__svelte-llm__list_sections",
+			"mcp__svelte-llm__get_documentation",
+			"Bash(npm install:*)",
+			"Bash(npm run lint)",
+			"Bash(npm run format:check:*)",
+			"Bash(npm run format:*)",
+			"Bash(node:*)",
+			"Bash(npm run lint:*)"
+		]
+	},
+	"enableAllProjectMcpServers": true,
+	"enabledMcpjsonServers": ["svelte-llm"]
+}
